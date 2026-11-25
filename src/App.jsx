@@ -38,19 +38,21 @@ export default function App() {
         >
           <div className="flex items-baseline drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]">
             <span
-              className="bg-clip-text text-transparent text-[23pt] font-bold tracking-[0.02em]"
+              className="bg-clip-text text-transparent text-[21pt] font-bold tracking-[0.02em]"
               style={{
                 fontFamily: "'Oswald', sans-serif",
-                backgroundImage: 'linear-gradient(180deg, #80520A 0%, #D99C00 55%, #FFF000 100%)',
+                backgroundImage: 'linear-gradient(180deg, #80520A 0%, #F2C400 55%, #FFFBD1 100%)',
+                transform: 'skewX(-10deg)',
               }}
             >
               FARM
             </span>
             <span
-              className="bg-clip-text text-transparent text-[22pt] font-bold tracking-[-0.02em] ml-[1mm]"
+              className="bg-clip-text text-transparent text-[20pt] font-bold tracking-[-0.02em] ml-[1mm]"
               style={{
                 fontFamily: "'BIZ UDPGothic', sans-serif",
-                backgroundImage: 'linear-gradient(180deg, #80520A 0%, #D99C00 55%, #FFF000 100%)',
+                backgroundImage: 'linear-gradient(180deg, #80520A 0%, #F2C400 55%, #FFFBD1 100%)',
+                transform: 'skewX(-10deg)',
               }}
             >
               ひまわり
@@ -69,6 +71,7 @@ export default function App() {
             className="text-white text-[39pt] font-medium tracking-[0.03em] leading-none whitespace-nowrap"
             style={{
               textShadow: '0 4px 16px rgba(0, 0, 0, 0.9), 0 1px 3px rgba(0, 0, 0, 0.95)',
+              transform: 'scaleY(1.18)',
             }}
           >
             {Array.from('農業って、かっこいい').map((character, index) => (
