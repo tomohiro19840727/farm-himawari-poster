@@ -24,7 +24,7 @@ export default function App() {
       >
         {/* 1. 背景写真レイヤー */}
         <img
-          src="/images/farm_himawari_notext_noqr.png"
+          src="/images/farm-himawari-background.png"
           alt="FARMひまわり ポスター背景"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
